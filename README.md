@@ -5,7 +5,7 @@ Minimal Functionality, but technically working. Use with [admoore0's entrance ra
 
 ## Installation
 0. Make sure you have [HAT Mod Loader](https://github.com/FEZModding/HAT) installed in your FEZ instance.
-1. Download and unzip the release folder.
+1. Download and unzip the [release](https://github.com/BDrewChris/ZEF/releases) folder.
 2. Put the unzipped folder in your `Mods` folder.
 3. Run FEZ and start a new game!
 
