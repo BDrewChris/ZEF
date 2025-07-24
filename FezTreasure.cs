@@ -26,7 +26,15 @@ public class TreasureChange : GameComponent
 
     public TreasureChange(Game game) : base(game)
     {
-        string collFile = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\randomized.txt");
+        string collFile = "";
+        string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\FEZ";
+        if (File.Exists(appDataFolder + "\\randomized.txt")) {
+            collFile = File.ReadAllText(appDataFolder + "\\randomized.txt");
+        }
+        else
+        {
+            collFile = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\collectibles.txt");
+        }
         allCollectibles = JsonConvert.DeserializeObject<Dictionary<string, List<Collectible>>>(collFile);
 
         Fez = (Fez)game;
@@ -61,11 +69,12 @@ public class TreasureChange : GameComponent
 
     private void StartGameHooked(Action<object> orig, object self)
     {
-        string inPath = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\collectibles.txt");
-        string outPath = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\randomized.txt");
+        string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\FEZ";
+        string inString = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\collectibles.txt");
+        string outPath = appDataFolder + "\\randomized.txt";
 
         //dict of levels vs emplacements and types
-        allCollectibles = JsonConvert.DeserializeObject<Dictionary<string, List<Collectible>>>(inPath);
+        allCollectibles = JsonConvert.DeserializeObject<Dictionary<string, List<Collectible>>>(inString);
 
         RandomizeCollectibles(allCollectibles);
 
