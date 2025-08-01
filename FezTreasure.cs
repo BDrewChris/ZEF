@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using FezGame;
 using FezGame.Services;
+using FezEngine;
 using FezEngine.Services;
 using FezEngine.Structure;
 using FezEngine.Tools;
@@ -20,7 +21,20 @@ public class TreasureChange : GameComponent
 
     public static Type MainMenuType;
 
-    Dictionary<string, List<Collectible>> allCollectibles { get; set; }
+    /*
+     * This property looks a little nasty, but is useful for handling each type of collectible in one file
+     * Top Layer is collectible location type (e.g. chests, triles, etc.)
+     * Second Layer down is level where collectible is contained (arch, owl, nature_hub, etc.)
+     * Third Layer is a list of all collectibles that adhere to those criteria
+     * See collectibles.txt for reference
+     */
+    public Dictionary<string, Dictionary<string, List<Collectible>>> AllCollectibles { get; set; }
+
+    public Dictionary<string, List<Collectible>> TrileCollectibles { get; set; }
+
+    public Dictionary<string, List<Collectible>> ChestCollectibles { get; set; }
+
+    public Level CurrentLevel { get; set; }
 
     public static Fez Fez { get; private set; }
 
@@ -28,14 +42,17 @@ public class TreasureChange : GameComponent
     {
         string collFile = "";
         string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\FEZ";
-        if (File.Exists(appDataFolder + "\\randomized.txt")) {
+        if (File.Exists(appDataFolder + "\\randomized.txt"))
+        {
             collFile = File.ReadAllText(appDataFolder + "\\randomized.txt");
         }
         else
         {
             collFile = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\collectibles.txt");
         }
-        allCollectibles = JsonConvert.DeserializeObject<Dictionary<string, List<Collectible>>>(collFile);
+        AllCollectibles = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, List<Collectible>>>>(collFile);
+        TrileCollectibles = AllCollectibles["Triles"];
+        ChestCollectibles = AllCollectibles["Chests"];
 
         Fez = (Fez)game;
 
@@ -54,10 +71,10 @@ public class TreasureChange : GameComponent
         MethodBase ActMethod = OpenTreasureType.GetMethod("Act", NonPublicFlags);
         MethodBase BeginMethod = OpenTreasureType.GetMethod("Begin", NonPublicFlags);
 
-        //Hook OpenTreasureBeginDetour = new Hook(BeginMethod,
-        //    new Action<Action<object>, object>((orig, self) =>
-        //    BeginHooked(orig, self)
-        //    ));
+        Hook OpenTreasureBeginDetour = new Hook(BeginMethod,
+            new Action<Action<object>, object>((orig, self) =>
+            BeginHooked(orig, self)
+            ));
 
         //Hook LoadLevelDetour = new Hook(LoadLevelMethod,
         //    new Action<Action<object, string>, object, string>((orig, self, levelName) =>
@@ -73,43 +90,59 @@ public class TreasureChange : GameComponent
         string inString = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Mods\\FezTreasure\\collectibles.txt");
         string outPath = appDataFolder + "\\randomized.txt";
 
-        //dict of levels vs emplacements and types
-        allCollectibles = JsonConvert.DeserializeObject<Dictionary<string, List<Collectible>>>(inString);
+        AllCollectibles = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, List<Collectible>>>>(inString);
+        Dictionary<string, List<Collectible>> trileCollectibles = AllCollectibles["Triles"];
+        Dictionary<string, List<Collectible>> chestCollectibles = AllCollectibles["Chests"];
 
-        RandomizeCollectibles(allCollectibles);
+        RandomizeCollectibles(trileCollectibles);
+        RandomizeCollectibles(chestCollectibles);
 
-        File.WriteAllText(outPath, JsonConvert.SerializeObject(allCollectibles, Formatting.Indented));
+        AllCollectibles["Triles"] = trileCollectibles;
+        AllCollectibles["Chests"] = chestCollectibles;
+
+        File.WriteAllText(outPath, JsonConvert.SerializeObject(AllCollectibles, Formatting.Indented));
         orig(self);
     }
 
     private void BeginHooked(Action<object> orig, object self)
     {
-        orig(self);
-        return;
+        Collectible newTreasure = new Collectible();
         var selfType = self.GetType();
-        var chestAO = selfType.GetField("chestAO", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(self);
+        var chestAO = (ArtObjectInstance) selfType.GetField("chestAO", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(self);
         if (chestAO != null)
         {
-            var actorSettings = chestAO.GetType().GetProperty("ActorSettings", BindingFlags.Public | BindingFlags.Instance).GetValue(chestAO);
-            var containedTrileField = actorSettings.GetType().GetProperty("ContainedTrile", BindingFlags.Public | BindingFlags.Instance);
-            containedTrileField.SetValue(actorSettings, ActorType.NumberCube);
+            foreach (var coll in ChestCollectibles[CurrentLevel.Name])
+            {
+                if (chestAO.Position.Equals(new Vector3(coll.ArtObjectPosition[0], coll.ArtObjectPosition[1], coll.ArtObjectPosition[2])))
+                {
+                    newTreasure.Type = coll.Type;
+                    newTreasure.TreasureMapName = coll.TreasureMapName;
+                }
+            }
+            if (newTreasure.Type != null)
+            {
+                var actorSettings = chestAO.GetType().GetProperty("ActorSettings", BindingFlags.Public | BindingFlags.Instance).GetValue(chestAO);
+                var containedTrileField = actorSettings.GetType().GetProperty("ContainedTrile", BindingFlags.Public | BindingFlags.Instance);
+                var treasureMapNameField = actorSettings.GetType().GetProperty("TreasureMapName", BindingFlags.Public | BindingFlags.Instance);
+                containedTrileField.SetValue(actorSettings, Enum.Parse(typeof(ActorType), newTreasure.Type));
+                treasureMapNameField.SetValue(actorSettings, newTreasure.TreasureMapName);
+            }
         }
+        orig(self);
     }
 
-    public void OnLMLoad(On.FezGame.Services.GameLevelManager.orig_Load orig, GameLevelManager self, string levelName)
+    private void OnLMLoad(On.FezGame.Services.GameLevelManager.orig_Load orig, GameLevelManager self, string levelName)
     {
         orig(self, levelName);
         var selfType = self.GetType();
-        Level levelData = (Level) selfType.GetField("levelData", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(self);
-        List<Collectible> curLevelCollectibles = allCollectibles[levelData.Name];
+        CurrentLevel = (Level) selfType.GetField("levelData", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(self);
+        List<Collectible> curLevelCollectibles = TrileCollectibles[CurrentLevel.Name];
 
-        int bitId = -1;
-        int cubeId = -1;
-        int antiId = -1;
-        int keyId = -1;
+        int bitId, cubeId, antiId, keyId;
+        bitId = cubeId = antiId = keyId = -1;
 
-        //finds ids
-        foreach (var value in levelData.TrileSet.Triles.Values)
+        //finds trile ids
+        foreach (var value in CurrentLevel.TrileSet.Triles.Values)
         {
             switch (value.ActorSettings?.Type ?? null)
             {
@@ -131,7 +164,7 @@ public class TreasureChange : GameComponent
         //overwrite levelData trileIds to spawn diff triles
         foreach (var newColl in curLevelCollectibles)
         {
-            foreach (var gameTrile in levelData.Triles)
+            foreach (var gameTrile in CurrentLevel.Triles)
             {
                 TrileEmplacement newTrileEmplacement = new TrileEmplacement(newColl.Emplacement[0], newColl.Emplacement[1], newColl.Emplacement[2]);
                 if (!newTrileEmplacement.Equals(gameTrile.Key))
@@ -141,51 +174,58 @@ public class TreasureChange : GameComponent
                 switch (newColl.Type.ToString())
                 {
                     case "GoldenCube":
-                        gameTrile.Value.TrileId = bitId;
+                        if (bitId != -1)
+                        {
+                            gameTrile.Value.TrileId = bitId;
+                        }
                         break;
                     case "CubeShard":
                         gameTrile.Value.TrileId = cubeId;
                         break;
                     case "SecretCube":
-                        gameTrile.Value.TrileId = antiId;
+                        if (antiId != -1)
+                        {
+                            gameTrile.Value.TrileId = antiId;
+                        }
                         break;
                     case "SkeletonKey":
-                        gameTrile.Value.TrileId = keyId;
+                        if (keyId != -1) {
+                            gameTrile.Value.TrileId = keyId;
+                        }
                         break;
-
                 }
             }
         }
     }
 
-    public static void RandomizeCollectibles(Dictionary<string, List<Collectible>> allCollectibles)
+    private static void RandomizeCollectibles(Dictionary<string, List<Collectible>> collectibles)
     {
-        List<string> fullListCollectibles = new List<string>();
-        Dictionary<string, List<Collectible>> allCollectiblesRandom = new Dictionary<string, List<Collectible>>();
-
-        foreach (var level in allCollectibles)
+        var fullListTypesAndMaps = new List<(string Type, string TreasureMapName)>();
+        
+        foreach (var level in collectibles)
         {
             foreach (var coll in level.Value)
             {
-                fullListCollectibles.Add(coll.Type);
+                fullListTypesAndMaps.Add((coll.Type, coll.TreasureMapName));
             }
         }
         Random rand = new Random();
-        int n = fullListCollectibles.Count;
+        int n = fullListTypesAndMaps.Count;
         while (n > 1)
         {
             n--;
             int k = rand.Next(n + 1);
-            var value = fullListCollectibles[k];
-            fullListCollectibles[k] = fullListCollectibles[n];
-            fullListCollectibles[n] = value;
+            var value = fullListTypesAndMaps[k];
+            fullListTypesAndMaps[k] = fullListTypesAndMaps[n];
+            fullListTypesAndMaps[n] = value;
         }
         int j = 0;
-        foreach (var level in allCollectibles)
+        foreach (var level in collectibles)
         {
             for (int i = 0; i < level.Value.Count; i++)
             {
-                level.Value[i].Type = fullListCollectibles[j];
+                level.Value[i].Type = fullListTypesAndMaps[j].Type;
+                level.Value[i].TreasureMapName = fullListTypesAndMaps[j].TreasureMapName;
                 j++;
             }
         }
@@ -193,7 +233,12 @@ public class TreasureChange : GameComponent
 
     public class Collectible
     {
-        public int[] Emplacement { get; set; }
-        public string Type { get; set; }
+        public int[] Emplacement;
+
+        public float[] ArtObjectPosition;
+
+        public string Type;
+
+        public string TreasureMapName = string.Empty;
     }
 }
