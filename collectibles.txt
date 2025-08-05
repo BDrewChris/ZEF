@@ -1,2145 +1,1227 @@
 {
-  "Triles": {
     "ABANDONED_A": [
-      {
-        "Emplacement": [
-          11,
-          9,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ABANDONED_B": [
-      {
-        "Emplacement": [
-          7,
-          3,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ABANDONED_C": [],
-    "ANCIENT_WALLS": [
-      {
-        "Emplacement": [
-          37,
-          35,
-          3
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          32,
-          18,
-          25
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          38,
-          25,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ARCH": [
-      {
-        "Emplacement": [
-          26,
-          36,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          18,
-          33,
-          4
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          19,
-          37,
-          15
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "BELL_TOWER": [
-      {
-        "Emplacement": [
-          15,
-          32,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          16,
-          31,
-          16
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "BIG_OWL": [
-      {
-        "Emplacement": [
-          18,
-          29,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          18,
-          13,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "BIG_TOWER": [
-      {
-        "Emplacement": [
-          13,
-          61,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          10,
-          63,
-          32
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          24,
-          53,
-          25
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          28,
-          41,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          24,
-          45,
-          16
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          19,
-          49,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          33,
-          57,
-          30
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          37,
-          59,
-          6
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "BOILEROOM": [],
-    "CABIN_INTERIOR_A": [],
-    "CABIN_INTERIOR_B": [],
-    "CLOCK": [
-      {
-        "Emplacement": [
-          41,
-          71,
-          35
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "CMY": [],
-    "CMY_B": [
-      {
-        "Emplacement": [
-          14,
-          62,
-          11
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "CMY_FORK": [],
-    "CODE_MACHINE": [],
-    "CRYPT": [],
-    "DRUM": [],
-    "ELDERS": [],
-    "EXTRACTOR_A": [
-      {
-        "Emplacement": [
-          24,
-          15,
-          12
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "FIVE_TOWERS": [
-      {
-        "Emplacement": [
-          32,
-          34,
-          27
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          26,
-          38,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          45,
-          74,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          45,
-          58,
-          32
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "FIVE_TOWERS_CAVE": [],
-    "FOX": [
-      {
-        "Emplacement": [
-          19,
-          74,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "FRACTAL": [
-      {
-        "Emplacement": [
-          28,
-          48,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          33,
-          26,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          30,
-          26,
-          23
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "GEEZER_HOUSE": [],
-    "GEEZER_HOUSE_2D": [],
-    "GLOBE": [
-      {
-        "Emplacement": [
-          23,
-          33,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "GLOBE_INT": [],
-    "GOMEZ_HOUSE": [],
-    "GOMEZ_HOUSE_2D": [],
-    "GOMEZ_HOUSE_END_32": [],
-    "GOMEZ_HOUSE_END_64": [],
-    "GRAVEYARD_A": [
-      {
-        "Emplacement": [
-          22,
-          39,
-          18
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          15,
-          54,
-          34
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          37,
-          73,
-          13
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "GRAVEYARD_GATE": [
-      {
-        "Emplacement": [
-          31,
-          30,
-          17
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          22,
-          25,
-          26
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          28,
-          19,
-          13
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          18,
-          29,
-          17
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          30,
-          40,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          19,
-          42,
-          25
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          25,
-          61,
-          20
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "GRAVE_CABIN": [
-      {
-        "Emplacement": [
-          12,
-          19,
-          36
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          13,
-          27,
-          37
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "GRAVE_GHOST": [
-      {
-        "Emplacement": [
-          15,
-          21,
-          12
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          9,
-          8,
-          15
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "GRAVE_LESSER_GATE": [
-      {
-        "Emplacement": [
-          18,
-          12,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          18,
-          18,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "GRAVE_TREASURE_A": [
-      {
-        "Emplacement": [
-          10,
-          56,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          7,
-          45,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          10,
-          40,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "HEX_REBUILD": [],
-    "INDUSTRIAL_CITY": [],
-    "INDUSTRIAL_HUB": [],
-    "INDUSTRIAL_SUPERSPIN": [
-      {
-        "Emplacement": [
-          14,
-          71,
-          58
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          27,
-          60,
-          40
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          29,
-          134,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "INDUST_ABANDONED_A": [
-      {
-        "Emplacement": [
-          7,
-          11,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "KITCHEN": [
-      {
-        "Emplacement": [
-          7,
-          12,
-          13
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "KITCHEN_2D": [],
-    "LAVA": [],
-    "LAVA_FORK": [],
-    "LAVA_SKULL": [
-      {
-        "Emplacement": [
-          10,
-          30,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "LIBRARY_INTERIOR": [],
-    "LIGHTHOUSE": [
-      {
-        "Emplacement": [
-          23,
-          39,
-          32
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          8,
-          28,
-          45
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "LIGHTHOUSE_HOUSE_A": [
-      {
-        "Emplacement": [
-          13,
-          7,
-          4
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "LIGHTHOUSE_SPIN": [
-      {
-        "Emplacement": [
-          10,
-          59,
-          15
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "MAUSOLEUM": [
-      {
-        "Emplacement": [
-          26,
-          19,
-          26
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          36,
-          19,
-          40
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          31,
-          19,
-          11
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          5,
-          9,
-          2
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "MEMORY_CORE": [],
-    "MINE_A": [
-      {
-        "Emplacement": [
-          20,
-          43,
-          26
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "MINE_BOMB_PILLAR": [
-      {
-        "Emplacement": [
-          22,
-          55,
-          29
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "MINE_WRAP": [
-      {
-        "Emplacement": [
-          31,
-          42,
-          18
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          28,
-          37,
-          15
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          34,
-          68,
-          13
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "NATURE_HUB": [
-      {
-        "Emplacement": [
-          7,
-          25,
-          22
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          2,
-          16,
-          26
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "NUZU_ABANDONED_A": [
-      {
-        "Emplacement": [
-          8,
-          5,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "NUZU_ABANDONED_B": [
-      {
-        "Emplacement": [
-          13,
-          2,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "NUZU_BOILERROOM": [],
-    "NUZU_DORM": [],
-    "NUZU_SCHOOL": [],
-    "OBSERVATORY": [
-      {
-        "Emplacement": [
-          5,
-          44,
-          6
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "OCTOHEAHEDRON": [],
-    "OLDSCHOOL": [
-      {
-        "Emplacement": [
-          7,
-          5,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "OLDSCHOOL_RUINS": [
-      {
-        "Emplacement": [
-          7,
-          5,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ORRERY": [],
-    "ORRERY_B": [],
-    "OWL": [
-      {
-        "Emplacement": [
-          18,
-          13,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "PARLOR": [],
-    "PARLOR_2D": [],
-    "PIVOT_ONE": [
-      {
-        "Emplacement": [
-          10,
-          52,
-          46
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          30,
-          27,
-          36
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          27,
-          74,
-          33
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "PIVOT_THREE": [
-      {
-        "Emplacement": [
-          14,
-          66,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "PIVOT_THREE_CAVE": [],
-    "PIVOT_TWO": [
-      {
-        "Emplacement": [
-          24,
-          42,
-          17
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          16,
-          46,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          32,
-          46,
-          25
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "PIVOT_WATERTOWER": [
-      {
-        "Emplacement": [
-          18,
-          34,
-          11
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "PURPLE_LODGE": [],
-    "PURPLE_LODGE_RUIN": [
-      {
-        "Emplacement": [
-          10,
-          4,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "PYRAMID": [],
-    "QUANTUM": [
-      {
-        "Emplacement": [
-          44,
-          83,
-          38
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "RAILS": [],
-    "RITUAL": [],
-    "SCHOOL": [
-      {
-        "Emplacement": [
-          7,
-          3,
-          7
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SCHOOL_2D": [],
-    "SEWER_FORK": [
-      {
-        "Emplacement": [
-          11,
-          42,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_GEYSER": [
-      {
-        "Emplacement": [
-          19,
-          37,
-          12
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_HUB": [
-      {
-        "Emplacement": [
-          34,
-          42,
-          35
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          8,
-          36,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_LESSER_GATE_B": [
-      {
-        "Emplacement": [
-          15,
-          35,
-          20
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_PILLARS": [
-      {
-        "Emplacement": [
-          6,
-          24,
-          29
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          30,
-          34,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          6,
-          16,
-          31
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_PIVOT": [
-      {
-        "Emplacement": [
-          20,
-          34,
-          20
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_QR": [
-      {
-        "Emplacement": [
-          15,
-          33,
-          11
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_START": [
-      {
-        "Emplacement": [
-          13,
-          21,
-          37
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_TO_LAVA": [
-      {
-        "Emplacement": [
-          14,
-          40,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SEWER_TREASURE_ONE": [],
-    "SEWER_TREASURE_TWO": [],
-    "SHOWERS": [
-      {
-        "Emplacement": [
-          7,
-          2,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SKULL": [
-      {
-        "Emplacement": [
-          8,
-          18,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          32,
-          22,
-          34
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          22,
-          24,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SKULL_B": [
-      {
-        "Emplacement": [
-          20,
-          21,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SPINNING_PLATES": [
-      {
-        "Emplacement": [
-          12,
-          60,
-          12
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          11,
-          40,
-          12
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "STARGATE": [],
-    "STARGATE_RUINS": [
-      {
-        "Emplacement": [
-          16,
-          75,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          9,
-          75,
-          11
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "SUPERSPIN_CAVE": [
-      {
-        "Emplacement": [
-          7,
-          22,
-          6
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "TELESCOPE": [],
-    "TEMPLE_OF_LOVE": [],
-    "THRONE": [
-      {
-        "Emplacement": [
-          30,
-          40,
-          28
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "TREE": [],
-    "TREE_CRUMBLE": [
-      {
-        "Emplacement": [
-          23,
-          52,
-          23
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "TREE_OF_DEATH": [],
-    "TREE_ROOTS": [],
-    "TREE_SKY": [],
-    "TRIPLE_PIVOT_CAVE": [
-      {
-        "Emplacement": [
-          14,
-          46,
-          28
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          26,
-          46,
-          30
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "TWO_WALLS": [
-      {
-        "Emplacement": [
-          28,
-          20,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          23,
-          30,
-          29
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          22,
-          33,
-          16
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          22,
-          46,
-          32
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "VILLAGEVILLE_2D": [
-      {
-        "Emplacement": [
-          22,
-          32,
-          17
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "VILLAGEVILLE_3D": [
-      {
-        "Emplacement": [
-          34,
-          36,
-          30
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          33,
-          53,
-          32
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          31,
-          44,
-          31
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          41,
-          23,
-          32
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "VILLAGEVILLE_3D_END_32": [],
-    "VILLAGEVILLE_3D_END_64": [],
-    "VISITOR": [
-      {
-        "Emplacement": [
-          26,
-          54,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "WALL_HOLE": [
-      {
-        "Emplacement": [
-          13,
-          23,
-          19
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          10,
-          6,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WALL_INTERIOR_A": [
-      {
-        "Emplacement": [
-          10,
-          12,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WALL_INTERIOR_B": [],
-    "WALL_INTERIOR_HOLE": [],
-    "WALL_KITCHEN": [
-      {
-        "Emplacement": [
-          10,
-          13,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WALL_SCHOOL": [
-      {
-        "Emplacement": [
-          10,
-          8,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WALL_VILLAGE": [
-      {
-        "Emplacement": [
-          38,
-          35,
-          21
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WATERFALL": [
-      {
-        "Emplacement": [
-          6,
-          25,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WATERFALL_ALT": [
-      {
-        "Emplacement": [
-          6,
-          25,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WATERTOWER_SECRET": [],
-    "WATER_PYRAMID": [],
-    "WATER_TOWER": [],
-    "WATER_WHEEL": [],
-    "WATER_WHEEL_B": [],
-    "WEIGHTSWITCH_TEMPLE": [
-      {
-        "Emplacement": [
-          45,
-          36,
-          13
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          21,
-          36,
-          34
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WELL_2": [],
-    "WINDMILL_CAVE": [
-      {
-        "Emplacement": [
-          16,
-          47,
-          14
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "WINDMILL_INT": [],
-    "ZU_4_SIDE": [],
-    "ZU_BRIDGE": [
-      {
-        "Emplacement": [
-          38,
-          57,
-          41
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          21,
-          50,
-          7
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_CITY": [
-      {
-        "Emplacement": [
-          44,
-          59,
-          37
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          45,
-          21,
-          34
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_CITY_RUINS": [],
-    "ZU_CODE_LOOP": [
-      {
-        "Emplacement": [
-          5,
-          42,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          2,
-          31,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": [
-          2,
-          11,
-          2
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_FORK": [],
-    "ZU_HEADS": [
-      {
-        "Emplacement": [
-          9,
-          68,
-          9
-        ],
-        "ArtObjectPosition": null,
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_HOUSE_EMPTY": [
-      {
-        "Emplacement": [
-          9,
-          6,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_HOUSE_EMPTY_B": [],
-    "ZU_HOUSE_QR": [],
-    "ZU_HOUSE_RUIN_GATE": [],
-    "ZU_HOUSE_RUIN_VISITORS": [
-      {
-        "Emplacement": [
-          6,
-          4,
-          10
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_HOUSE_SCAFFOLDING": [
-      {
-        "Emplacement": [
-          12,
-          9,
-          5
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_LIBRARY": [
-      {
-        "Emplacement": [
-          27,
-          40,
-          25
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_SWITCH": [],
-    "ZU_SWITCH_B": [
-      {
-        "Emplacement": [
-          17,
-          37,
-          20
-        ],
-        "ArtObjectPosition": null,
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_TETRIS": [],
-    "ZU_THRONE_RUINS": [
-      {
-        "Emplacement": [
-          9,
-          6,
-          8
-        ],
-        "ArtObjectPosition": null,
-        "Type": "GoldenCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_UNFOLD": [],
-    "ZU_ZUISH": []
-  },
-  "Chests": {
-    "ABANDONED_A": [],
-    "ABANDONED_B": [],
-    "ABANDONED_C": [],
-    "ANCIENT_WALLS": [],
-    "ARCH": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          20.5,
-          43.0,
-          9.5
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      },
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          3.0,
-          48.4375,
-          32.0
-        ],
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "BELL_TOWER": [],
-    "BIG_OWL": [],
-    "BIG_TOWER": [],
-    "BOILEROOM": [],
-    "CABIN_INTERIOR_A": [],
-    "CABIN_INTERIOR_B": [],
-    "CLOCK": [],
-    "CMY": [],
-    "CMY_B": [],
-    "CMY_FORK": [],
-    "CODE_MACHINE": [],
-    "CRYPT": [],
-    "DRUM": [],
-    "ELDERS": [],
-    "EXTRACTOR_A": [],
-    "FIVE_TOWERS": [],
-    "FIVE_TOWERS_CAVE": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          10.5,
-          63.0,
-          10.5
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_CRYPT_C"
-      }
-    ],
-    "FOX": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          8.0,
-          75.0,
-          20.0
-        ],
-        "Type": "LetterCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "FRACTAL": [],
-    "GEEZER_HOUSE": [],
-    "GEEZER_HOUSE_2D": [],
-    "GLOBE": [],
-    "GLOBE_INT": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          8.0,
-          3.0,
-          8.0
-        ],
-        "Type": "Tome",
-        "TreasureMapName": ""
-      }
-    ],
-    "GOMEZ_HOUSE": [],
-    "GOMEZ_HOUSE_2D": [],
-    "GOMEZ_HOUSE_END_32": [],
-    "GOMEZ_HOUSE_END_64": [],
-    "GRAVEYARD_A": [],
-    "GRAVEYARD_GATE": [],
-    "GRAVE_CABIN": [],
-    "GRAVE_GHOST": [],
-    "GRAVE_LESSER_GATE": [],
-    "GRAVE_TREASURE_A": [],
-    "HEX_REBUILD": [],
-    "INDUSTRIAL_CITY": [],
-    "INDUSTRIAL_HUB": [],
-    "INDUSTRIAL_SUPERSPIN": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          16.5,
-          126.0,
-          18.5
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_PIVOT"
-      }
-    ],
-    "INDUST_ABANDONED_A": [],
-    "KITCHEN": [],
-    "KITCHEN_2D": [],
-    "LAVA": [],
-    "LAVA_FORK": [],
-    "LAVA_SKULL": [],
-    "LIBRARY_INTERIOR": [],
-    "LIGHTHOUSE": [],
-    "LIGHTHOUSE_HOUSE_A": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          12.0,
-          2.0,
-          9.5
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_ARCH"
-      }
-    ],
-    "LIGHTHOUSE_SPIN": [],
-    "MAUSOLEUM": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          30.0,
-          33.0,
-          20.5
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_CRYPT_B"
-      }
-    ],
-    "MEMORY_CORE": [],
-    "MINE_A": [],
-    "MINE_BOMB_PILLAR": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          14.5,
-          68.0,
-          18.5
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "MINE_WRAP": [],
-    "NATURE_HUB": [],
-    "NUZU_ABANDONED_A": [],
-    "NUZU_ABANDONED_B": [],
-    "NUZU_BOILERROOM": [],
-    "NUZU_DORM": [],
-    "NUZU_SCHOOL": [],
-    "OBSERVATORY": [],
-    "OCTOHEAHEDRON": [],
-    "OLDSCHOOL": [],
-    "OLDSCHOOL_RUINS": [],
-    "ORRERY": [],
-    "ORRERY_B": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          16.6875,
-          43.5,
-          18.0
-        ],
-        "Type": "NumberCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "OWL": [],
-    "PARLOR": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          5.5,
-          2.0,
-          8.5
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "PARLOR_2D": [],
-    "PIVOT_ONE": [],
-    "PIVOT_THREE": [],
-    "PIVOT_THREE_CAVE": [],
-    "PIVOT_TWO": [],
-    "PIVOT_WATERTOWER": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          18.5,
-          52.0,
-          14.5
-        ],
-        "Type": "SecretCube",
-        "TreasureMapName": ""
-      }
-    ],
-    "PURPLE_LODGE": [],
-    "PURPLE_LODGE_RUIN": [],
-    "PYRAMID": [],
-    "QUANTUM": [],
-    "RAILS": [],
-    "RITUAL": [],
-    "SCHOOL": [],
-    "SCHOOL_2D": [],
-    "SEWER_FORK": [],
-    "SEWER_GEYSER": [],
-    "SEWER_HUB": [],
-    "SEWER_LESSER_GATE_B": [],
-    "SEWER_PILLARS": [],
-    "SEWER_PIVOT": [],
-    "SEWER_QR": [],
-    "SEWER_START": [],
-    "SEWER_TO_LAVA": [],
-    "SEWER_TREASURE_ONE": [],
-    "SEWER_TREASURE_TWO": [],
-    "SHOWERS": [],
-    "SKULL": [],
-    "SKULL_B": [],
-    "SPINNING_PLATES": [],
-    "STARGATE": [],
-    "STARGATE_RUINS": [],
-    "SUPERSPIN_CAVE": [],
-    "TELESCOPE": [],
-    "TEMPLE_OF_LOVE": [],
-    "THRONE": [],
-    "TREE": [],
-    "TREE_CRUMBLE": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          13.0,
-          68.5,
-          11.0
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_CRYPT_A"
-      }
-    ],
-    "TREE_OF_DEATH": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          59.5,
-          11.0,
-          1.5
-        ],
-        "Type": "TriSkull",
-        "TreasureMapName": ""
-      }
-    ],
-    "TREE_ROOTS": [],
-    "TREE_SKY": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          9.5625,
-          60.0,
-          9.5
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_MYSTERY"
-      }
-    ],
-    "TRIPLE_PIVOT_CAVE": [],
-    "TWO_WALLS": [],
-    "VILLAGEVILLE_2D": [],
-    "VILLAGEVILLE_3D": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          20.0,
-          43.0,
-          22.0
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "VILLAGEVILLE_3D_END_32": [],
-    "VILLAGEVILLE_3D_END_64": [],
-    "VISITOR": [],
-    "WALL_HOLE": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          13.0,
-          34.0,
-          26.5
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "WALL_INTERIOR_A": [],
-    "WALL_INTERIOR_B": [],
-    "WALL_INTERIOR_HOLE": [],
-    "WALL_KITCHEN": [],
-    "WALL_SCHOOL": [],
-    "WALL_VILLAGE": [],
-    "WATERFALL": [],
-    "WATERFALL_ALT": [],
-    "WATERTOWER_SECRET": [],
-    "WATER_PYRAMID": [],
-    "WATER_TOWER": [],
-    "WATER_WHEEL": [],
-    "WATER_WHEEL_B": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          18.0,
-          17.0,
-          14.0
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_RITUAL"
-      }
-    ],
-    "WEIGHTSWITCH_TEMPLE": [],
-    "WELL_2": [],
-    "WINDMILL_CAVE": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          21.5,
-          44.0,
-          10.0
-        ],
-        "Type": "CubeShard",
-        "TreasureMapName": ""
-      }
-    ],
-    "WINDMILL_INT": [],
-    "ZU_4_SIDE": [],
-    "ZU_BRIDGE": [],
-    "ZU_CITY": [],
-    "ZU_CITY_RUINS": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          59.5,
-          56.5,
-          53.5
-        ],
-        "Type": "TreasureMap",
-        "TreasureMapName": "MAP_TREE_SKY"
-      }
-    ],
-    "ZU_CODE_LOOP": [],
-    "ZU_FORK": [],
-    "ZU_HEADS": [],
-    "ZU_HOUSE_EMPTY": [],
-    "ZU_HOUSE_EMPTY_B": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          9.0,
-          3.0,
-          9.5
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_HOUSE_QR": [],
-    "ZU_HOUSE_RUIN_GATE": [
-      {
-        "Emplacement": null,
-        "ArtObjectPosition": [
-          11.0,
-          3.0,
-          9.5
-        ],
-        "Type": "SkeletonKey",
-        "TreasureMapName": ""
-      }
-    ],
-    "ZU_HOUSE_RUIN_VISITORS": [],
-    "ZU_HOUSE_SCAFFOLDING": [],
-    "ZU_LIBRARY": [],
-    "ZU_SWITCH": [],
-    "ZU_SWITCH_B": [],
-    "ZU_TETRIS": [],
-    "ZU_THRONE_RUINS": [],
-    "ZU_UNFOLD": [],
-    "ZU_ZUISH": []
-  }
+    {
+      "LocationType": "Trile",
+      "Emplacement": [11, 9, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ABANDONED_B": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 3, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ABANDONED_C": [],
+  "ANCIENT_WALLS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [37, 35, 3],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [32, 18, 25],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [38, 25, 5],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ARCH": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [26, 36, 9],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 33, 4],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [19, 37, 15],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [20.5, 43, 9.5],
+      "Type": "SkeletonKey"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [3, 48.4375, 32],
+      "Type": "SecretCube"
+    }
+  ],
+  "BELL_TOWER": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [15, 32, 21],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [16, 31, 16],
+      "Type": "GoldenCube"
+    }
+  ],
+  "BIG_OWL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 29, 14],
+      "Type": "SecretCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 13, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "BIG_TOWER": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [13, 61, 10],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 63, 32],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [24, 53, 25],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [28, 41, 21],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [24, 45, 16],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [19, 49, 21],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [33, 57, 30],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [37, 59, 6],
+      "Type": "GoldenCube"
+    }
+  ],
+  "BOILEROOM": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 0,
+      "Type": "SecretCube"
+    }
+  ],
+  "CABIN_INTERIOR_A": [],
+  "CABIN_INTERIOR_B": [],
+  "CLOCK": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [41, 71, 35],
+      "Type": "CubeShard"
+    }
+  ],
+  "CMY": [],
+  "CMY_B": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [14, 62, 11],
+      "Type": "SecretCube"
+    }
+  ],
+  "CMY_FORK": [],
+  "CODE_MACHINE": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 3,
+      "Type": "SecretCube"
+    }
+  ],
+  "CRYPT": [],
+  "DRUM": [],
+  "ELDERS": [],
+  "EXTRACTOR_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [24, 15, 12],
+      "Type": "GoldenCube"
+    }
+  ],
+  "FIVE_TOWERS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [32, 34, 27],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [26, 38, 21],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [45, 74, 19],
+      "Type": "CubeShard"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [45, 58, 32],
+      "Type": "GoldenCube"
+    }
+  ],
+  "FIVE_TOWERS_CAVE": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [10.5, 63, 10.5],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_CRYPT_C"
+    }
+  ],
+  "FOX": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [19, 74, 9],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [8, 75, 20],
+      "Type": "LetterCube"
+    }
+  ],
+  "FRACTAL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [28, 48, 21],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [33, 26, 19],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [30, 26, 23],
+      "Type": "GoldenCube"
+    }
+  ],
+  "GEEZER_HOUSE": [],
+  "GEEZER_HOUSE_2D": [],
+  "GLOBE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [23, 33, 19],
+      "Type": "GoldenCube"
+    }
+  ],
+  "GLOBE_INT": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [8, 3, 8],
+      "Type": "Tome"
+    }
+  ],
+  "GOMEZ_HOUSE": [],
+  "GOMEZ_HOUSE_2D": [],
+  "GOMEZ_HOUSE_END_32": [],
+  "GOMEZ_HOUSE_END_64": [],
+  "GRAVEYARD_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 39, 18],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [15, 54, 34],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [37, 73, 13],
+      "Type": "GoldenCube"
+    }
+  ],
+  "GRAVEYARD_GATE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [31, 30, 17],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 25, 26],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [28, 19, 13],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 29, 17],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [30, 40, 14],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [19, 42, 25],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [25, 61, 20],
+      "Type": "GoldenCube"
+    }
+  ],
+  "GRAVE_CABIN": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [12, 19, 36],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [13, 27, 37],
+      "Type": "GoldenCube"
+    }
+  ],
+  "GRAVE_GHOST": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [15, 21, 12],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [9, 8, 15],
+      "Type": "GoldenCube"
+    }
+  ],
+  "GRAVE_LESSER_GATE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 12, 10],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 18, 14],
+      "Type": "CubeShard"
+    }
+  ],
+  "GRAVE_TREASURE_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 56, 8],
+      "Type": "CubeShard"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 45, 8],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 40, 5],
+      "Type": "GoldenCube"
+    }
+  ],
+  "HEX_REBUILD": [],
+  "INDUSTRIAL_CITY": [],
+  "INDUSTRIAL_HUB": [],
+  "INDUSTRIAL_SUPERSPIN": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [14, 71, 58],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [27, 60, 40],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [29, 134, 9],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [16.5, 126, 18.5],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_PIVOT"
+    }
+  ],
+  "INDUST_ABANDONED_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 11, 8],
+      "Type": "GoldenCube"
+    }
+  ],
+  "KITCHEN": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 12, 13],
+      "Type": "GoldenCube"
+    }
+  ],
+  "KITCHEN_2D": [],
+  "LAVA": [],
+  "LAVA_FORK": [],
+  "LAVA_SKULL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 30, 8],
+      "Type": "SecretCube"
+    }
+  ],
+  "LIBRARY_INTERIOR": [],
+  "LIGHTHOUSE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [23, 39, 32],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [8, 28, 45],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 19,
+      "Type": "SecretCube"
+    }
+  ],
+  "LIGHTHOUSE_HOUSE_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [13, 7, 4],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [12, 2, 9.5],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_ARCH"
+    }
+  ],
+  "LIGHTHOUSE_SPIN": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 59, 15],
+      "Type": "GoldenCube"
+    }
+  ],
+  "MAUSOLEUM": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [26, 19, 26],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [36, 19, 40],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [31, 19, 11],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [5, 9, 2],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [30, 33, 20.5],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_CRYPT_B"
+    }
+  ],
+  "MEMORY_CORE": [],
+  "MINE_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [20, 43, 26],
+      "Type": "GoldenCube"
+    }
+  ],
+  "MINE_BOMB_PILLAR": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 55, 29],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [14.5, 68, 18.5],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "MINE_WRAP": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [31, 42, 18],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [28, 37, 15],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [34, 68, 13],
+      "Type": "CubeShard"
+    }
+  ],
+  "NATURE_HUB": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 25, 22],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [2, 16, 26],
+      "Type": "GoldenCube"
+    }
+  ],
+  "NUZU_ABANDONED_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [8, 5, 8],
+      "Type": "GoldenCube"
+    }
+  ],
+  "NUZU_ABANDONED_B": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [13, 2, 9],
+      "Type": "GoldenCube"
+    }
+  ],
+  "NUZU_BOILERROOM": [],
+  "NUZU_DORM": [],
+  "NUZU_SCHOOL": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 0,
+      "Type": "SecretCube"
+    }
+  ],
+  "OBSERVATORY": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [5, 44, 6],
+      "Type": "CubeShard"
+    }
+  ],
+  "OCTOHEAHEDRON": [],
+  "OLDSCHOOL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 5, 8],
+      "Type": "GoldenCube"
+    }
+  ],
+  "OLDSCHOOL_RUINS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 5, 8],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ORRERY": [],
+  "ORRERY_B": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [16.6875, 43.5, 18],
+      "Type": "NumberCube"
+    }
+  ],
+  "OWL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 13, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "PARLOR": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [5.5, 2, 8.5],
+      "Type": "SkeletonKey"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 5,
+      "Type": "SecretCube"
+    }
+  ],
+  "PARLOR_2D": [],
+  "PIVOT_ONE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 52, 46],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [30, 27, 36],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [27, 74, 33],
+      "Type": "GoldenCube"
+    }
+  ],
+  "PIVOT_THREE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [14, 66, 14],
+      "Type": "CubeShard"
+    }
+  ],
+  "PIVOT_THREE_CAVE": [],
+  "PIVOT_TWO": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [24, 42, 17],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [16, 46, 9],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [32, 46, 25],
+      "Type": "GoldenCube"
+    }
+  ],
+  "PIVOT_WATERTOWER": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [18, 34, 11],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [18.5, 52, 14.5],
+      "Type": "SecretCube"
+    }
+  ],
+  "PURPLE_LODGE": [],
+  "PURPLE_LODGE_RUIN": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 4, 9],
+      "Type": "GoldenCube"
+    }
+  ],
+  "PYRAMID": [],
+  "QUANTUM": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [44, 83, 38],
+      "Type": "SecretCube"
+    }
+  ],
+  "RAILS": [],
+  "RITUAL": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 3,
+      "Type": "PieceOfHeart"
+    }
+  ],
+  "SCHOOL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 3, 7],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SCHOOL_2D": [],
+  "SEWER_FORK": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [11, 42, 14],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_GEYSER": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [19, 37, 12],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_HUB": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [34, 42, 35],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [8, 36, 9],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_LESSER_GATE_B": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [15, 35, 20],
+      "Type": "CubeShard"
+    }
+  ],
+  "SEWER_PILLARS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [6, 24, 29],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [30, 34, 5],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [6, 16, 31],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_PIVOT": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [20, 34, 20],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [30.5, 42, 12.5],
+      "Type": "CubeShard"
+    }
+  ],
+  "SEWER_QR": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [15, 33, 11],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_START": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [13, 21, 37],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_TO_LAVA": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [14, 40, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SEWER_TREASURE_ONE": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [13, 23, 12],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "SEWER_TREASURE_TWO": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [14.5, 20, 14.5],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "SHOWERS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 2, 8],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SKULL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [8, 18, 10],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [32, 22, 34],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 24, 21],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SKULL_B": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [20, 21, 19],
+      "Type": "SecretCube"
+    }
+  ],
+  "SPINNING_PLATES": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [12, 60, 12],
+      "Type": "CubeShard"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [11, 40, 12],
+      "Type": "GoldenCube"
+    }
+  ],
+  "STARGATE": [],
+  "STARGATE_RUINS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [16, 75, 19],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [9, 75, 11],
+      "Type": "GoldenCube"
+    }
+  ],
+  "SUPERSPIN_CAVE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [7, 22, 6],
+      "Type": "CubeShard"
+    }
+  ],
+  "TELESCOPE": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 6,
+      "Type": "PieceOfHeart"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 5,
+      "Type": "SecretCube"
+    }
+  ],
+  "TEMPLE_OF_LOVE": [],
+  "THRONE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [30, 40, 28],
+      "Type": "GoldenCube"
+    }
+  ],
+  "TREE": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 15,
+      "Type": "SecretCube"
+    }
+  ],
+  "TREE_CRUMBLE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [23, 52, 23],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [13, 68.5, 11],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_CRYPT_A"
+    }
+  ],
+  "TREE_OF_DEATH": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [59.5, 11, 1.5],
+      "Type": "TriSkull"
+    }
+  ],
+  "TREE_ROOTS": [],
+  "TREE_SKY": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [9.5625, 60, 9.5],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_MYSTERY"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 5,
+      "Type": "SecretCube"
+    }
+  ],
+  "TRIPLE_PIVOT_CAVE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [14, 46, 28],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [26, 46, 30],
+      "Type": "GoldenCube"
+    }
+  ],
+  "TWO_WALLS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [28, 20, 19],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [23, 30, 29],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 33, 16],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 46, 32],
+      "Type": "CubeShard"
+    }
+  ],
+  "VILLAGEVILLE_2D": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [22, 32, 17],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "VILLAGEVILLE_3D": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [34, 36, 30],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [33, 53, 32],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [31, 44, 31],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [41, 23, 32],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [20, 43, 22],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "VILLAGEVILLE_3D_END_32": [],
+  "VILLAGEVILLE_3D_END_64": [],
+  "VISITOR": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [26, 54, 21],
+      "Type": "CubeShard"
+    }
+  ],
+  "WALL_HOLE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [13, 23, 19],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 6, 14],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [13, 34, 26.5],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "WALL_INTERIOR_A": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 12, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WALL_INTERIOR_B": [],
+  "WALL_INTERIOR_HOLE": [],
+  "WALL_KITCHEN": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 13, 14],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WALL_SCHOOL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [10, 8, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WALL_VILLAGE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [38, 35, 21],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WATERFALL": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [6, 25, 5],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WATERFALL_ALT": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [6, 25, 5],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WATERTOWER_SECRET": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 1,
+      "Type": "SecretCube"
+    }
+  ],
+  "WATER_PYRAMID": [],
+  "WATER_TOWER": [],
+  "WATER_WHEEL": [],
+  "WATER_WHEEL_B": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [18, 17, 14],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_RITUAL"
+    }
+  ],
+  "WEIGHTSWITCH_TEMPLE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [45, 36, 13],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [21, 36, 34],
+      "Type": "GoldenCube"
+    }
+  ],
+  "WELL_2": [],
+  "WINDMILL_CAVE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [16, 47, 14],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [21.5, 44, 10],
+      "Type": "CubeShard"
+    }
+  ],
+  "WINDMILL_INT": [],
+  "ZU_4_SIDE": [],
+  "ZU_BRIDGE": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [38, 57, 41],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [21, 50, 7],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 4,
+      "Type": "SecretCube"
+    }
+  ],
+  "ZU_CITY": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [44, 59, 37],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [45, 21, 34],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ZU_CITY_RUINS": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [59.5, 56.5, 53.5],
+      "Type": "TreasureMap",
+      "TreasureMapName": "MAP_TREE_SKY"
+    }
+  ],
+  "ZU_CODE_LOOP": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [5, 42, 5],
+      "Type": "CubeShard"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [2, 31, 5],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Trile",
+      "Emplacement": [2, 11, 2],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 1,
+      "Type": "SecretCube"
+    }
+  ],
+  "ZU_FORK": [],
+  "ZU_HEADS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [9, 68, 9],
+      "Type": "SecretCube"
+    }
+  ],
+  "ZU_HOUSE_EMPTY": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [9, 6, 8],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 3,
+      "Type": "SecretCube"
+    }
+  ],
+  "ZU_HOUSE_EMPTY_B": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [9, 3, 9.5],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "ZU_HOUSE_QR": [
+    {
+      "LocationType": "Spawn",
+      "Volume": 0,
+      "Type": "SecretCube"
+    }
+  ],
+  "ZU_HOUSE_RUIN_GATE": [
+    {
+      "LocationType": "Chest",
+      "ArtObjectPosition": [11, 3, 9.5],
+      "Type": "SkeletonKey"
+    }
+  ],
+  "ZU_HOUSE_RUIN_VISITORS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [6, 4, 10],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ZU_HOUSE_SCAFFOLDING": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [12, 9, 5],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ZU_LIBRARY": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [27, 40, 25],
+      "Type": "GoldenCube"
+    }
+  ],
+  "ZU_SWITCH": [],
+  "ZU_SWITCH_B": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [17, 37, 20],
+      "Type": "CubeShard"
+    }
+  ],
+  "ZU_TETRIS": [],
+  "ZU_THRONE_RUINS": [
+    {
+      "LocationType": "Trile",
+      "Emplacement": [9, 6, 8],
+      "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Spawn",
+      "Volume": 3,
+      "Type": "SecretCube"
+    }
+  ],
+  "ZU_UNFOLD": [],
+  "ZU_ZUISH": []
 }
