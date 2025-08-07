@@ -12,6 +12,7 @@ Minimal Functionality, but technically working. Use with [admoore0's entrance ra
 ## Current State
 Most collectibles have been included in the randomizer, though some of those collectibles are currently limited to their respective categories, e.g., maps, artifacts, and PoHs.
 Right now, the game plays pretty similar to a vanilla playthrough, but I intend to add other features that should mix things up. Stay tuned (:
+
 If you find any bugs in the current version, please let me know!
 
 Also, as of now, this only works reliably on one save file. I can only guarantee success by using the same file for a whole playthrough, but you have free will so do as you must.
