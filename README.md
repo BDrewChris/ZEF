@@ -10,18 +10,13 @@ Minimal Functionality, but technically working. Use with [admoore0's entrance ra
 3. Run FEZ and start a new game!
 
 ## Current State
-As of now, all this does is randomize the simple free-floating collectibles in the world. 
-This includes all cube bits, full cubes not in chests, anti cubes not spawned or in chests, and a single key - essentially anything represented as a trile.
-If you want a more feature-complete experience, I would suggest waiting a little longer till there's more to chew on. If you find any bugs, please let me know!
+Most collectibles have been included in the randomizer, though some of those collectibles are currently limited to their respective categories, e.g., maps, artifacts, and PoHs.
+Right now, the game plays pretty similar to a vanilla playthrough, but I intend to add other features that should mix things up. Stay tuned (:
+If you find any bugs in the current version, please let me know!
 
 Also, as of now, this only works reliably on one save file. I can only guarantee success by using the same file for a whole playthrough, but you have free will so do as you must.
 
 I also can't guarantee that everything will be 100% completable as there is no logic to the randomization currently, so enjoy and regard with a healthy dose of skepticism.
-
-Things to look forward to:
-- CHESTS!
-- SPAWNED CUBES!!
-- MORE FUN STUFF!!!
 
 ## Building
 1. Use necessary dependencies.
