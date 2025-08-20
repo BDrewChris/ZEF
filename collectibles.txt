@@ -68,6 +68,11 @@
       "LocationType": "Trile",
       "Emplacement": [16, 31, 16],
       "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Bell",
+      "ArtObjectPosition": [17, 44.1875, 19],
+      "Type": "SecretCube"
     }
   ],
   "BIG_OWL": [
@@ -138,6 +143,26 @@
       "LocationType": "Trile",
       "Emplacement": [41, 71, 35],
       "Type": "CubeShard"
+    },
+    {
+      "LocationType": "ClockRed",
+      "ArtObjectPosition": [41.5, 50.5, 35.5],
+      "Type": "SecretCube"
+    },
+    {
+      "LocationType": "ClockBlue",
+      "ArtObjectPosition": [41.5, 50.5, 35.5],
+      "Type": "SecretCube"
+    },
+    {
+      "LocationType": "ClockGreen",
+      "ArtObjectPosition": [41.5, 50.5, 35.5],
+      "Type": "SecretCube"
+    },
+    {
+      "LocationType": "ClockWhite",
+      "ArtObjectPosition": [41.5, 50.5, 35.5],
+      "Type": "SecretCube"
     }
   ],
   "CMY": [],
@@ -148,7 +173,13 @@
       "Type": "SecretCube"
     }
   ],
-  "CMY_FORK": [],
+  "CMY_FORK": [
+    {
+      "LocationType": "Fork",
+      "ArtObjectPosition": [7, 9.5, 5],
+      "Type": "SecretCube"
+    }
+  ],
   "CODE_MACHINE": [
     {
       "LocationType": "Spawn",
@@ -394,7 +425,13 @@
   ],
   "KITCHEN_2D": [],
   "LAVA": [],
-  "LAVA_FORK": [],
+  "LAVA_FORK": [
+    {
+      "LocationType": "Fork",
+      "ArtObjectPosition": [16.5, 45.5, 16.5],
+      "Type": "SecretCube"
+    }
+  ],
   "LAVA_SKULL": [
     {
       "LocationType": "Trile",
@@ -681,6 +718,11 @@
       "LocationType": "Trile",
       "Emplacement": [11, 42, 14],
       "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "Fork",
+      "ArtObjectPosition": [11.5, 41, 14.5],
+      "Type": "SecretCube"
     }
   ],
   "SEWER_GEYSER": [
@@ -743,6 +785,11 @@
       "LocationType": "Trile",
       "Emplacement": [15, 33, 11],
       "Type": "GoldenCube"
+    },
+    {
+      "LocationType": "QRCode",
+      "ArtObjectPosition": [15, 41.5, 14],
+      "Type": "SecretCube"
     }
   ],
   "SEWER_START": [
@@ -931,13 +978,7 @@
       "Type": "CubeShard"
     }
   ],
-  "VILLAGEVILLE_2D": [
-    {
-      "LocationType": "Trile",
-      "Emplacement": [22, 32, 17],
-      "Type": "SkeletonKey"
-    }
-  ],
+  "VILLAGEVILLE_2D": [],
   "VILLAGEVILLE_3D": [
     {
       "LocationType": "Trile",
@@ -1139,7 +1180,13 @@
       "Type": "SecretCube"
     }
   ],
-  "ZU_FORK": [],
+  "ZU_FORK": [
+    {
+      "LocationType": "Fork",
+      "ArtObjectPosition": [16.5, 18, 15.5],
+      "Type": "SecretCube"
+    }
+  ],
   "ZU_HEADS": [
     {
       "LocationType": "Trile",
@@ -1152,11 +1199,6 @@
       "LocationType": "Trile",
       "Emplacement": [9, 6, 8],
       "Type": "GoldenCube"
-    },
-    {
-      "LocationType": "Spawn",
-      "Volume": 3,
-      "Type": "SecretCube"
     }
   ],
   "ZU_HOUSE_EMPTY_B": [
@@ -1209,19 +1251,32 @@
       "Type": "CubeShard"
     }
   ],
-  "ZU_TETRIS": [],
+  "ZU_TETRIS": [
+    {
+      "LocationType": "ZuPuzzle",
+      "Volume": 0,
+      "Type": "SecretCube"
+    }
+  ],
   "ZU_THRONE_RUINS": [
     {
       "LocationType": "Trile",
       "Emplacement": [9, 6, 8],
       "Type": "GoldenCube"
-    },
+    }
+  ],
+  "ZU_UNFOLD": [
     {
-      "LocationType": "Spawn",
-      "Volume": 3,
+      "LocationType": "ZuPuzzle",
+      "Volume": 0,
       "Type": "SecretCube"
     }
   ],
-  "ZU_UNFOLD": [],
-  "ZU_ZUISH": []
+  "ZU_ZUISH": [
+    {
+      "LocationType": "ZuPuzzle",
+      "Volume": 0,
+      "Type": "PieceOfHeart"
+    }
+  ]
 }

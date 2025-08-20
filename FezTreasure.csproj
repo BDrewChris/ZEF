@@ -5,54 +5,63 @@
 		<Platforms>AnyCPU;x86</Platforms>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-		<OutputPath>C:\Modding\FEZModding\Fez 2\Mods\FezTreasure</OutputPath>
 	</PropertyGroup>
-	
+
 	<ItemGroup>
-		<Reference Include="Common">
-			<HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\Common.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="ContentSerialization">
-			<HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\ContentSerialization.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="FEZ">
-			<HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\FEZ.exe</HintPath>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="FezEngine">
-			<HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\FezEngine.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="FEZUG">
-		  <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\Mods\FEZUG\FEZUG.dll</HintPath>
-		  <Private>False</Private>
-		</Reference>
-		<Reference Include="FNA">
-			<HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\FNA.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="MMHOOK_FEZ">
-		  <HintPath>..\FEZ 2\MMHOOK_FEZ.dll</HintPath>
-		</Reference>
-		<Reference Include="MonoMod.RuntimeDetour">
-		  <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\HATDependencies\MonoMod\MonoMod.RuntimeDetour.dll</HintPath>
-		  <Private>False</Private>
-		</Reference>
-		<Reference Include="Newtonsoft.Json">
-		  <HintPath>..\FEZ 2\Mods\FezTreasure\Newtonsoft.Json.dll</HintPath>
-		</Reference>
-		<Reference Include="XnaWordWrapCore">
-			<HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\FEZ\XnaWordWrapCore.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Compile Update="FezTreasure.cs">
+		<Compile Update="FezTreasureMod\TreasureChanger.cs">
 			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Dependencies\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Common">
+	    <HintPath>Dependencies\Common.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="ContentSerialization">
+	    <HintPath>Dependencies\ContentSerialization.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="FEZ">
+	    <HintPath>Dependencies\FEZ.exe</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="FezEngine">
+	    <HintPath>Dependencies\FezEngine.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="FNA">
+	    <HintPath>Dependencies\FNA.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="MMHOOK_FEZ">
+	    <HintPath>Dependencies\MMHOOK_FEZ.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="MMHOOK_FezEngine">
+	    <HintPath>Dependencies\MMHOOK_FezEngine.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="MonoMod.RuntimeDetour">
+	    <HintPath>Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="MonoMod.Utils">
+	    <HintPath>Dependencies\MonoMod.Utils.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="XnaWordWrapCore">
+	    <HintPath>Dependencies\XnaWordWrapCore.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
 	</ItemGroup>
 
 </Project>
